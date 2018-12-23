@@ -13,7 +13,7 @@ const AppHeader = () => (
       <Logo image={appLogo} width={100} heigth={100} />
     </div>
     <div className="menu">
-      <Navigation item={itemNav} />
+      <Navigation items={itemNav} />
     </div>
     <div className="Header__usermenu">
       <UserMenu avatar={avatar} name="client" />

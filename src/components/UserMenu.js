@@ -57,7 +57,7 @@ export default class Usermenu extends Component {
       >
         <AvatarUser image={avatar} />
         <span className="UserName">{name}</span>
-        {isDropDownOpen && <Dropdown item={itemDropdown} />}
+        {isDropDownOpen && <Dropdown items={itemDropdown} />}
       </div>
     );
   }
