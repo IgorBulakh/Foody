@@ -10,7 +10,7 @@ const itemNav = ['menu', 'about', 'contact', 'delivery'];
 const AppHeader = () => (
   <header className="Header">
     <div className="Header__logo">
-      <Logo image={appLogo} width={100} heigth={100} />
+      <Logo img={appLogo} width={100} heigth={100} />
     </div>
     <div className="menu">
       <Navigation items={itemNav} />

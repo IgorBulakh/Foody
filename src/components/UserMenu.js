@@ -55,7 +55,7 @@ export default class Usermenu extends Component {
         className="UserMenu"
         ref={this.containerRef}
       >
-        <AvatarUser image={avatar} />
+        <AvatarUser img={avatar} />
         <span className="UserName">{name}</span>
         {isDropDownOpen && <Dropdown items={itemDropdown} />}
       </div>
